@@ -1,1 +1,1 @@
-# BridgeLabz-Training-2Y
+Here are some fundamental practice problems of Java!!
