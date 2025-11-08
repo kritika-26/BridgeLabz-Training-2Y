@@ -1,0 +1,31 @@
+1.)connect ssms with server
+2.)create database:-
+=>name:university student
+=>download file from classroom.
+=>right click on university student
+   >tasks  
+   then import file that is downloaded from the classroom.
+=>next>browse>select the file>then just select next
+{note:if you are seeing errors after importing then firstly resolve it : solution convert your excel file into csv file}
+and then the same procedure
+
+=>define the datatypes respectively
+=>refresh and select the last file
+=>select the last option then select top 1000 rows
+
+>>go to power bi > get data > sql server > give information then ok
+
+>>browse on google == adventure works data backup file github
+alternate way download from the link provided on classroom
+
+>>open ssms
+>go to databases and right click
+>restore database(helps to restore backup file)
+>jo bhi file download kari h usko folder mai rkhna h
+>click on device> then on three dots > add>go to file folder >ok-3 times(will create another database)
+
+
+>>go to power bi
+>get data > server > same step for importing(helps in selecting as much tables you want to select)
+
+
