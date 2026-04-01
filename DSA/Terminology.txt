@@ -1,0 +1,25 @@
+#a tree with n-nodes will have n-1 edges.
+#a graph is also a tree,if and only if vertices are connected.
+#edge is the connection link btw nodes.
+#parent mode-a node having more than one child.
+#degree of a node==total number of children,known as degree
+#degree of a tree==it is the degree of that node having maximum number of childs
+
+##internal nodes==node which has atleast one children
+
+##leaf node==node which do not have any child
+	
+##levels==in tree each step from top to bottom is known as levels
+
+##height of a node==longest distance from that node to leaf node(means total number of edges in that path)
+
+##depth/level of a tree==number of edges from node to root node
+
+##subtree==small trees inside tree
+
+##types of tree:
+1-)regular tree
+2-)binary tree==every node should have atmost two children
+2-)binary-search tree==every left node's value will be less than right node's value 
+
+
