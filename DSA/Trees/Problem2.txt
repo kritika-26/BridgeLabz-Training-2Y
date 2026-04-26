@@ -1,0 +1,11 @@
+Problem 2 Solution
+
+a) Inorder traversal (BST sorted)
+b) Postorder (size calculation)
+c) Preorder (copy structure)
+
+Inorder: config user docs home root var log
+Preorder: root home user config docs var log
+Postorder: config user docs home log var root
+
+Postorder deletes children before parent safely.

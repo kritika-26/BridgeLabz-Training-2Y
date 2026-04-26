@@ -1,0 +1,19 @@
+Problem 3 Solution
+
+BST:
+        50
+       /  \
+     30    70
+    / \   / \
+  20  40 60  80
+ / \
+10 25
+
+Search 25 path: 50 -> 30 -> 20 -> 25
+
+Inorder: 10 20 25 30 40 50 60 70 80
+
+Invalid BST reason: 65 violates BST rule
+
+Skewed height: 8
+Balanced height: 3

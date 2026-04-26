@@ -1,0 +1,16 @@
+Problem 5 Solution
+
+Postorder: 3 5 + 8 2 - ×
+Inorder: (3 + 5) × (8 - 2)
+Preorder: × + 3 5 - 8 2
+
+Stack Algorithm:
+Push operands
+Pop 2 on operator
+Apply and push result
+
+Expression: a×b + c/d - e
+
+Inorder: ((a×b)+(c/d))-e
+Preorder: - + × a b / c d e
+Postorder: a b × c d / + e -

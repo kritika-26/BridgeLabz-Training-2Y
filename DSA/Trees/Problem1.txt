@@ -1,0 +1,7 @@
+Problem 1 Solution
+
+Leaf Nodes: Dev1, Dev2, HR
+Height: 3
+Depth of Dev Lead: 2
+Ancestors of Dev1: Dev Lead -> CTO -> CEO
+Degree of CTO: 1

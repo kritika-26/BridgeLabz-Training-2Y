@@ -1,0 +1,16 @@
+Problem 4 Solution
+
+Delete 10:
+Replace with 12
+
+Insert 14:
+Goes right of 12
+
+Insert 9:
+Goes right of 8
+
+Traversal for range: Inorder
+
+Time Complexity:
+Best: O(1)
+Worst: O(n)
