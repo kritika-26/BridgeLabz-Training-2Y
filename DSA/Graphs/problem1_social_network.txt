@@ -1,0 +1,8 @@
+Problem 1: Social Network
+
+Representation: Adjacency List
+
+Algorithm:
+- Friends of Alice: return adjacency list of Alice
+- Direct connection: check if Eve in Bob's list
+- Shortest path: BFS

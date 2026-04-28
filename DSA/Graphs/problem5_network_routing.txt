@@ -1,0 +1,10 @@
+Problem 5: Network Routing
+
+Representation:
+- Adjacency Matrix
+- Adjacency List
+
+Algorithms:
+- Connectivity: BFS/DFS
+- Alternate path: BFS excluding edge
+- Min hops: BFS

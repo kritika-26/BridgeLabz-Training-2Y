@@ -1,0 +1,9 @@
+Problem 4: Island Counter
+
+Graph Model: Each cell is node
+
+Algorithms:
+- DFS: Explore connected components
+- BFS: Level traversal
+- Complexity: O(n*m)
+- Diagonal: Add extra directions

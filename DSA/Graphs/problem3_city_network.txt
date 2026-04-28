@@ -1,0 +1,8 @@
+Problem 3: City Road Network
+
+Representation: Weighted Directed Graph
+
+Algorithms:
+- Reachable nodes: BFS/DFS
+- Fewest turns: BFS
+- DFS doesn't guarantee shortest path
