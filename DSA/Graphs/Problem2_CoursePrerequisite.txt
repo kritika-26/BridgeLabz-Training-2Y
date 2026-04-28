@@ -1,0 +1,21 @@
+PROBLEM 2: COURSE PREREQUISITE SYSTEM
+
+Representation:
+Directed Graph:
+CS101 → CS102, CS201
+CS102 → CS202
+MATH101 → CS201
+
+1. Cycle Detection (DFS):
+- Use visited + recursion stack
+- If node revisited in stack → cycle
+
+2. Prerequisites for CS202:
+CS101 → CS102 → CS202
+Required: CS101, CS102
+
+3. Topological Sort:
+Valid Order:
+MATH101, CS101, CS102, CS201, CS202
+
+Time Complexity: O(V + E)

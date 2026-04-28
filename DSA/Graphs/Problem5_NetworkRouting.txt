@@ -1,0 +1,28 @@
+PROBLEM 5: NETWORK PACKET ROUTING
+
+Adjacency List:
+R1: R2, R3
+R2: R1, R4
+R3: R1, R4
+R4: R2, R3, R5
+R5: R4, R6
+R6: R5
+
+1. Adjacency Matrix:
+6x6 matrix
+
+2. Space Complexity:
+Matrix: O(V^2)
+List: O(V + E)
+
+3. Connectivity:
+Use BFS → all visited → connected
+
+4. If R4-R5 fails:
+Alternate Path:
+R1 → R3 → R4 → (no path to R6)
+So network breaks
+
+5. Min hops (BFS):
+R1 → R2 → R4 → R5 → R6
+Hops = 4

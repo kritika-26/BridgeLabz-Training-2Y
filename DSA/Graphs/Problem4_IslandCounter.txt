@@ -1,0 +1,26 @@
+PROBLEM 4: ISLAND COUNTER
+
+Grid:
+1 1 0 0 0
+1 1 0 0 1
+0 0 1 0 1
+0 0 0 1 1
+
+1. Graph Model:
+Each cell = node
+Edges to 4 directions
+
+2. DFS Algorithm:
+- Traverse grid
+- If 1 found → DFS
+- Mark visited
+- Count++
+
+3. BFS Algorithm:
+- Same but using queue
+
+Output:
+Number of islands = 3
+
+Time Complexity: O(n*m)
+Space: O(n*m)

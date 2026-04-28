@@ -1,0 +1,21 @@
+PROBLEM 3: CITY ROAD NETWORK
+
+Representation:
+Weighted Directed Graph
+
+Edges:
+A→B(5), B↔C(3), A↔D(7), D→E(2), C→E(4)
+
+1. Reachable from A:
+Using BFS:
+A → B, D → C → E
+
+2. Fewest Turns (BFS):
+Path:
+A → D → E
+
+3. DFS Limitation:
+DFS may go A→B→C→E (longer path)
+So not shortest
+
+Time Complexity: O(V + E)

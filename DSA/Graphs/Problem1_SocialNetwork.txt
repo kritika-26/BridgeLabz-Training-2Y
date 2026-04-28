@@ -1,0 +1,29 @@
+PROBLEM 1: SOCIAL NETWORK CONNECTION
+
+Representation:
+Use Adjacency List:
+Alice: Bob, Charlie
+Bob: Alice, David
+Charlie: Alice, Eve
+David: Bob, Eve
+Eve: Charlie, David
+
+1. Friends of Alice:
+Algorithm:
+- Access adjacency list of Alice
+Output: Bob, Charlie
+
+2. Check if Bob and Eve are directly connected:
+Algorithm:
+- Check if Eve exists in Bob's list
+Output: No
+
+3. Shortest Path (Alice to Eve) using BFS:
+Steps:
+- Start from Alice
+- Visit neighbors: Bob, Charlie
+- From Charlie → Eve found
+
+Path: Alice → Charlie → Eve
+
+Time Complexity: O(V + E)

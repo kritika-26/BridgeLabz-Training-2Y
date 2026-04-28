@@ -1,8 +1,0 @@
-Problem 2: Course Prerequisite
-
-Representation: Directed Graph
-
-Algorithms:
-- Cycle Detection: DFS with recursion stack
-- Prerequisites of CS202: Reverse DFS
-- Topological Sort: Kahn's Algorithm
